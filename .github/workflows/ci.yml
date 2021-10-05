@@ -23,5 +23,6 @@ jobs:
       - run: npm run build
         env:
           ALLOWED_LOGIC_URL_PREFIXES:
+      - run: npm run check-conformance
       - run: npm run lint
       - run: npm test
